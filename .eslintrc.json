@@ -14,5 +14,10 @@
     "react/self-closing-comp": "off",
     "func-names": "off",
     "arrow-body-style": "off"
+  },
+  "plugins": ["cypress"],
+  "env": {
+    "browser": true,
+    "cypress/globals": true
   }
 }
